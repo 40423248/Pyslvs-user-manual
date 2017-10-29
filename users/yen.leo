@@ -40,7 +40,7 @@
 <v t="yen.20170120110024.9"><vh>快捷鍵</vh>
 <v t="yen.20170120110024.10"><vh>投影片快捷鍵</vh></v>
 </v>
-<v t="yen.20170120110024.11"><vh>Week1</vh>
+<v t="yen.20170120110024.11" a="E"><vh>Week1</vh>
 <v t="yen.20170120110024.12"><vh>Week1 content</vh>
 <v t="yen.20170120110024.13"><vh>Week1-1</vh></v>
 </v>
@@ -306,7 +306,7 @@
 <v t="leo.20170517103152.2"><vh>Week12 content</vh>
 <v t="leo.20170517103152.3"><vh>Week12-1</vh></v>
 </v>
-<v t="leo.20170517103152.4"><vh>Week12-2</vh>
+<v t="leo.20170517103152.4" a="E"><vh>Week12-2</vh>
 <v t="leo.20170517103152.5"><vh>引用程式碼</vh></v>
 </v>
 <v t="leo.20170517103152.6"><vh>Week12-3</vh>
@@ -331,13 +331,13 @@
 </v>
 </v>
 <v t="leo.20170524225239.1"><vh>Week14</vh>
-<v t="leo.20170524225239.2"><vh>Week14 content</vh>
+<v t="leo.20170524225239.2" a="E"><vh>Week14 content</vh>
 <v t="leo.20170524225239.3"><vh>Week14-1</vh></v>
 </v>
 <v t="leo.20170524225239.4" a="E"><vh>Week14-2</vh>
 <v t="leo.20170524225239.5"><vh>引用程式碼</vh></v>
 </v>
-<v t="leo.20170524225239.6"><vh>Week14-3</vh>
+<v t="leo.20170524225239.6" a="E"><vh>Week14-3</vh>
 <v t="leo.20170524225239.7"><vh>引用程式碼</vh></v>
 </v>
 <v t="leo.20170524225239.8"><vh>Week14-4</vh>
@@ -348,16 +348,16 @@
 </v>
 </v>
 <v t="leo.20170531083720.1"><vh>Week15</vh>
-<v t="leo.20170531083720.2"><vh>Week15 content</vh>
+<v t="leo.20170531083720.2" a="E"><vh>Week15 content</vh>
 <v t="leo.20170531083720.3"><vh>Week15-1</vh></v>
 </v>
-<v t="leo.20170531083720.4"><vh>Week15-2</vh>
+<v t="leo.20170531083720.4" a="E"><vh>Week15-2</vh>
 <v t="leo.20170531083720.5"><vh>引用程式碼</vh></v>
 </v>
-<v t="leo.20170531083720.6"><vh>Week15-3</vh>
+<v t="leo.20170531083720.6" a="E"><vh>Week15-3</vh>
 <v t="leo.20170531083720.7"><vh>引用程式碼</vh></v>
 </v>
-<v t="leo.20170531083720.8"><vh>Week15-4</vh>
+<v t="leo.20170531083720.8" a="E"><vh>Week15-4</vh>
 <v t="leo.20170531083720.9"><vh>引用程式碼</vh></v>
 </v>
 <v t="leo.20170531083720.10"><vh>導入影片</vh>
@@ -371,35 +371,35 @@
 <v t="leo.20170607002207.4" a="E"><vh>Week16-2</vh>
 <v t="leo.20170607002207.5"><vh>引用程式碼</vh></v>
 </v>
-<v t="leo.20170607002207.6"><vh>Week16-3</vh>
+<v t="leo.20170607002207.6" a="E"><vh>Week16-3</vh>
 <v t="leo.20170607002207.7"><vh>引用程式碼</vh></v>
 </v>
-<v t="leo.20170607002207.8"><vh>Week16-4</vh>
+<v t="leo.20170607002207.8" a="E"><vh>Week16-4</vh>
 <v t="leo.20170607002207.9"><vh>引用程式碼</vh></v>
 </v>
-<v t="leo.20170607002207.10"><vh>導入影片</vh>
+<v t="leo.20170607002207.10" a="E"><vh>導入影片</vh>
 <v t="leo.20170607002207.11"><vh>iframe 導入影片</vh></v>
 </v>
 </v>
 <v t="leo.20170621084842.1"><vh>Week17</vh>
-<v t="leo.20170621084842.2"><vh>Week17 content</vh>
-<v t="leo.20170621084842.3"><vh>Week16-1</vh></v>
+<v t="leo.20170621084842.2" a="E"><vh>Week17 content</vh>
+<v t="leo.20170621084842.3"><vh>Week17-1</vh></v>
 </v>
 <v t="leo.20170621084842.4"><vh>Week17-2</vh>
 <v t="leo.20170621084842.5"><vh>引用程式碼</vh></v>
 </v>
-<v t="leo.20170621084842.6"><vh>Week17-3</vh>
+<v t="leo.20170621084842.6" a="E"><vh>Week17-3</vh>
 <v t="leo.20170621084842.7"><vh>引用程式碼</vh></v>
 </v>
-<v t="leo.20170621084842.8"><vh>Week17-4</vh>
+<v t="leo.20170621084842.8" a="E"><vh>Week17-4</vh>
 <v t="leo.20170621084842.9"><vh>引用程式碼</vh></v>
 </v>
-<v t="leo.20170621084842.10"><vh>導入影片</vh>
+<v t="leo.20170621084842.10" a="E"><vh>導入影片</vh>
 <v t="leo.20170621084842.11"><vh>iframe 導入影片</vh></v>
 </v>
 </v>
 <v t="leo.20170621084849.1"><vh>Week18</vh>
-<v t="leo.20170621084849.2" a="E"><vh>Week18 content</vh>
+<v t="leo.20170621084849.2"><vh>Week18 content</vh>
 <v t="leo.20170621084849.3"><vh>Week18-1</vh></v>
 </v>
 <v t="leo.20170621084849.4"><vh>Week18-2</vh>
@@ -1708,9 +1708,7 @@ https://www.onshape.com/cad-blog/featurescript-its-so-easy-an-engineer-can-do-it
 
 						
 </t>
-<t tx="leo.20170517103152.3">##第十二週
-
-使用漸開線原理, 用 Brython來繪製單一個正齒輪的輪廓</t>
+<t tx="leo.20170517103152.3"></t>
 <t tx="leo.20170517103152.4">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -1722,7 +1720,7 @@ https://www.onshape.com/cad-blog/featurescript-its-so-easy-an-engineer-can-do-it
 
 						
 </t>
-<t tx="leo.20170517103152.5">##1.none</t>
+<t tx="leo.20170517103152.5"></t>
 <t tx="leo.20170517103152.6">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -1776,10 +1774,7 @@ https://www.onshape.com/cad-blog/featurescript-its-so-easy-an-engineer-can-do-it
 
 						
 </t>
-<t tx="leo.20170517103219.3">###第十三週上課內容
-
-###1.用OnShape來繪製漸開線齒輪
-###參考:https://www.khkgears.co.jp/tw/gear_technology/pdf/gear_guide1.pdf</t>
+<t tx="leo.20170517103219.3"></t>
 <t tx="leo.20170517103219.4">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -1791,8 +1786,7 @@ https://www.onshape.com/cad-blog/featurescript-its-so-easy-an-engineer-can-do-it
 
 						
 </t>
-<t tx="leo.20170517103219.5">###1.用OnShape來繪製漸開線齒輪
-###參考:https://www.khkgears.co.jp/tw/gear_technology/pdf/gear_guide1.pdf</t>
+<t tx="leo.20170517103219.5"></t>
 <t tx="leo.20170524225239.1">&lt;section&gt;
 @others
 &lt;/section&gt;
@@ -1823,11 +1817,7 @@ https://www.onshape.com/cad-blog/featurescript-its-so-easy-an-engineer-can-do-it
 
 						
 </t>
-<t tx="leo.20170524225239.3">##第十四週
-架設ubuntu伺服器
-
-###Ubuntu簡介:
-###Ubuntu是基於Debian的Linux發行版。Debian的版本更新時間不固定，但Ubuntu會固定在每年的4月和10月釋出新版(每半年一新版)，版本號碼就是「年份.月份」，例如在2014年4月發佈的版本，號碼就是14.04；在2009年10月發佈的版本，號碼就是9.10。通常每隔兩年會釋出一個更新支援期長達2年以上的LTS(Long Term Support)版本，例如10.04、12.04、14.04、16.04就是LTS版，LTS版本因為支援期長，有很多時間修復BUG，因此愈後期的LTS版，執行起來會更穩定，如果有架設伺服器的需求，安裝LTS版本會是較好的選擇，尤其又以安裝專門用來架設伺服器的Ubuntu Server最好。</t>
+<t tx="leo.20170524225239.3"></t>
 <t tx="leo.20170524225239.4">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -1839,7 +1829,7 @@ https://www.onshape.com/cad-blog/featurescript-its-so-easy-an-engineer-can-do-it
 
 						
 </t>
-<t tx="leo.20170524225239.5">##1.none</t>
+<t tx="leo.20170524225239.5"></t>
 <t tx="leo.20170524225239.6">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -1894,11 +1884,7 @@ https://www.onshape.com/cad-blog/featurescript-its-so-easy-an-engineer-can-do-it
 
 						
 </t>
-<t tx="leo.20170531083720.3">##第十四週
-架設ubuntu伺服器
-
-###Ubuntu簡介:
-###Ubuntu是基於Debian的Linux發行版。Debian的版本更新時間不固定，但Ubuntu會固定在每年的4月和10月釋出新版(每半年一新版)，版本號碼就是「年份.月份」，例如在2014年4月發佈的版本，號碼就是14.04；在2009年10月發佈的版本，號碼就是9.10。通常每隔兩年會釋出一個更新支援期長達2年以上的LTS(Long Term Support)版本，例如10.04、12.04、14.04、16.04就是LTS版，LTS版本因為支援期長，有很多時間修復BUG，因此愈後期的LTS版，執行起來會更穩定，如果有架設伺服器的需求，安裝LTS版本會是較好的選擇，尤其又以安裝專門用來架設伺服器的Ubuntu Server最好。</t>
+<t tx="leo.20170531083720.3"></t>
 <t tx="leo.20170531083720.4">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -1910,7 +1896,7 @@ https://www.onshape.com/cad-blog/featurescript-its-so-easy-an-engineer-can-do-it
 
 						
 </t>
-<t tx="leo.20170531083720.5">##1.none</t>
+<t tx="leo.20170531083720.5"></t>
 <t tx="leo.20170531083720.6">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -1922,7 +1908,7 @@ https://www.onshape.com/cad-blog/featurescript-its-so-easy-an-engineer-can-do-it
 
 						
 </t>
-<t tx="leo.20170531083720.7">## 2.</t>
+<t tx="leo.20170531083720.7"></t>
 <t tx="leo.20170531083720.8">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -1934,7 +1920,7 @@ https://www.onshape.com/cad-blog/featurescript-its-so-easy-an-engineer-can-do-it
 
 						
 </t>
-<t tx="leo.20170531083720.9">## 3.</t>
+<t tx="leo.20170531083720.9"></t>
 <t tx="leo.20170607002207.1">&lt;section&gt;
 @others
 &lt;/section&gt;
@@ -1978,8 +1964,7 @@ https://www.onshape.com/cad-blog/featurescript-its-so-easy-an-engineer-can-do-it
 
 						
 </t>
-<t tx="leo.20170607002207.5">##1.老師介紹怎麼用Xming來連結Fossil伺服器
-&lt;img src="data/Week16/xming-install1.png" width="600" /&gt;</t>
+<t tx="leo.20170607002207.5"></t>
 <t tx="leo.20170607002207.6">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -1991,7 +1976,7 @@ https://www.onshape.com/cad-blog/featurescript-its-so-easy-an-engineer-can-do-it
 
 						
 </t>
-<t tx="leo.20170607002207.7">## 2.</t>
+<t tx="leo.20170607002207.7"></t>
 <t tx="leo.20170607002207.8">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -2003,7 +1988,7 @@ https://www.onshape.com/cad-blog/featurescript-its-so-easy-an-engineer-can-do-it
 
 						
 </t>
-<t tx="leo.20170607002207.9">## 3.</t>
+<t tx="leo.20170607002207.9"></t>
 <t tx="leo.20170621084842.1">&lt;section&gt;
 @others
 &lt;/section&gt;
@@ -2047,8 +2032,7 @@ https://www.onshape.com/cad-blog/featurescript-its-so-easy-an-engineer-can-do-it
 
 						
 </t>
-<t tx="leo.20170621084842.5">##1.老師介紹怎麼用Xming來連結Fossil伺服器
-&lt;img src="data/Week16/xming-install1.png" width="600" /&gt;</t>
+<t tx="leo.20170621084842.5"></t>
 <t tx="leo.20170621084842.6">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -2060,7 +2044,7 @@ https://www.onshape.com/cad-blog/featurescript-its-so-easy-an-engineer-can-do-it
 
 						
 </t>
-<t tx="leo.20170621084842.7">## 2.</t>
+<t tx="leo.20170621084842.7"></t>
 <t tx="leo.20170621084842.8">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -2072,7 +2056,7 @@ https://www.onshape.com/cad-blog/featurescript-its-so-easy-an-engineer-can-do-it
 
 						
 </t>
-<t tx="leo.20170621084842.9">## 3.</t>
+<t tx="leo.20170621084842.9"></t>
 <t tx="leo.20170621084849.1">&lt;section&gt;
 @others
 &lt;/section&gt;
@@ -2122,8 +2106,7 @@ https://40423222.github.io/2017springcd_bg7/blog/%E6%9C%9F%E6%9C%AB%E8%A8%88%E7%
 
 						
 </t>
-<t tx="leo.20170621084849.5">##1.老師介紹怎麼用Xming來連結Fossil伺服器
-&lt;img src="data/Week16/xming-install1.png" width="600" /&gt;</t>
+<t tx="leo.20170621084849.5"></t>
 <t tx="leo.20170621084849.6">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -2135,7 +2118,7 @@ https://40423222.github.io/2017springcd_bg7/blog/%E6%9C%9F%E6%9C%AB%E8%A8%88%E7%
 
 						
 </t>
-<t tx="leo.20170621084849.7">## 2.</t>
+<t tx="leo.20170621084849.7"></t>
 <t tx="leo.20170621084849.8">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -2147,7 +2130,7 @@ https://40423222.github.io/2017springcd_bg7/blog/%E6%9C%9F%E6%9C%AB%E8%A8%88%E7%
 
 						
 </t>
-<t tx="leo.20170621084849.9">## 3.</t>
+<t tx="leo.20170621084849.9"></t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
