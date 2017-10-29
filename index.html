@@ -1,0 +1,1505 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+<title>
+2017 Spring 機械設計工程系協同產品設計實習
+</title>
+    <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+    <meta name="author" content="Hakim El Hattab">
+    
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
+    <link rel="stylesheet" href="https://cad-lab.github.io/cadlab_data/reveal/css/reveal.css">
+    <link rel="stylesheet" href="https://cad-lab.github.io/cadlab_data/reveal/css/theme/black.css" id="theme">
+    
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="https://cad-lab.github.io/cadlab_data/reveal/lib/css/zenburn.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match( /print-pdf/gi ) ? 'https://cad-lab.github.io/cadlab_data/reveal/css/print/pdf.css' : 'https://cad-lab.github.io/cadlab_data/reveal/css/print/paper.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="https://cad-lab.github.io/cadlab_data/reveal/lib/js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+<div class="reveal">
+<!-- Any section element inside of this container is displayed as a slide -->
+<div class="slides">
+<section data-markdown>
+    <script type="text/template">
+## 2017Spring 協同產品設計實習
+
+### 虎科大機械設計工程系
+
+####學員 40423248 課程簡報
+
+[網誌連結](https://40423248.github.io/2017springcd_hw/blog/index.html)
+
+<small>
+Created by [KMOLab](http://chiamingyen.github.io/kmolab/blog/)
+</small>
+
+[協同產品設計實習課程網誌](blog/index.html)
+
+
+## 
+
+
+    </script>
+</section>
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+# 投影片快捷鍵
+
+* 利用箭頭上下前後換頁
+* 按 f 鍵進入全螢幕模式 (full screen)
+* 按 s 鍵可以顯示投影片筆記 (show)
+* 按 o 鍵可以切換單張或全域檢視 (overview)
+* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
+* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+
+    </script>
+</section>
+
+
+						
+<section>
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+##第一週
+
+###1.本學期課程概要
+
+登錄Github到老師的Mdecourse的倉儲看大綱
+
+有介紹一些3D軟體的相聯性
+
+概略介紹C和PYTHON的優缺點
+
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+###2.用正確的方式打開Stunnel
+
+進入tiny2017_700MB>data>stunnel>config裡面,修改stunnel.conf
+內容中的最後一段IP位置,要先在cmd中用ipconfig/all找出自己的IPV4位置
+把這個IPV4位置覆蓋掉stunnel.conf最後一段IP位置後儲存,再把fossil程式關掉
+重新打開程式就會正常顯示
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+## 之後試著登錄https://192.168.1.24/2017springvcp_hw/index
+要記得先Proxy的進階選項設定另外的IP選項
+才可以進入裡面做登錄的動作
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+## 3.用PYTHON程式碼來控制V-rep中的四連桿機構作動
+
+進入作業倉儲的data裡面,把fourlinkage的壓縮檔解開,
+得到單連桿,四連桿,八連桿,可在Solvespace和V-rep中開啟
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+## 使用 iframe 導入影片
+
+### 導入影片 第一週
+
+<iframe src="https://player.vimeo.com/video/209055449" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/209055449">2017CD 第一週</a> from <a href="https://vimeo.com/user46447136">40423248</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+    </script>
+</section>
+
+
+						
+</section>
+<section>
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+##第二週
+
+###1.用python程式來找出缺課同學
+
+###2.用solvespace繪製和組立四連桿機構,再轉檔用v-rep開啟
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+##1.用python程式來找出缺課同學
+
+###到班級倉儲data下載W2資料夾裡的cd_w2.py和w2b_registered.txt，再來用程式碼印出分組名單、座位列表、缺席學生和學生總數
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+##2.用solvespace繪製和組立四連桿機構,再轉檔用v-rep開啟
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+<img src="data/Week2/link30.png" width="500" />
+
+<img src="data/Week2/link50.png" width="500" />
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+<img src="data/Week2/link60.png" width="500" />
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+## 使用 iframe 導入影片
+
+### 導入影片 第二週
+
+<iframe src="https://player.vimeo.com/video/209055543" width="640" height="359" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/209055543">2017CD 第二週</a> from <a href="https://vimeo.com/user46447136">40423248</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+    </script>
+</section>
+
+
+						
+</section>
+<section>
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+##第三週
+
+###1.打網址進入https://mde2a1.kmol.info/ 看每週進度
+
+###2.改掉start的fossil路徑
+
+###3.本週主要內容,至課程網頁瀏覽十部影片並挑兩部翻譯
+
+###4.用slovespace或Onshape繪製四連桿機構並轉檔
+
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+###1.打網址進入 "https://mde2a1.kmol.info/"
+
+看每週進度,點進wiki裡面的list,再點進2017springcd,就能看到每一週要做的事
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+## 2.改掉start的fossil路徑,用程式來找電腦的ip位置,再由組長創建該組的https架構,以便讓組員編輯
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+## 3.於課程網頁上的w3部分中從十部影片裡挑選兩部影片,做出中英文的字幕翻譯,並把字幕加入原影片中
+
+##40423222上傳 40423245嵌入字幕 40423248翻譯 
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+<iframe src="https://player.vimeo.com/video/208321328" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/208321328">hyperworks 14 4中英字幕</a> from <a href="https://vimeo.com/user57795652">40423222</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+<iframe src="https://player.vimeo.com/video/208321328" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/208321328">hyperworks 14 4中英字幕</a> from <a href="https://vimeo.com/user57795652">40423222</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+## 4.用solvespace或Onshape繪製四連桿機構,尺寸為30,50,60公分
+
+##繪製完成把檔案轉成.stl檔,再導入v-rep做測試
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+## 使用 iframe 導入影片
+
+### 導入影片 第三週
+
+<iframe src="https://player.vimeo.com/video/210430506" width="640" height="359" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/210430506">2017CD 第三週</a> from <a href="https://vimeo.com/user46447136">40423248</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+    </script>
+</section>
+
+
+						
+</section>
+<section>
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+##第四週
+
+###1.了解x-windows , vnc , remote desktop , 的功能
+
+###2.組長建立fossil倉儲,編輯密碼,並把組員拉入
+
+###3.在Onshape或Slovespace中繪製單連桿機構並轉成stl檔案再導入V-REP做測試
+
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+###1.了解x-windows , vnc , remote desktop , 的功能
+
+X Window系统是一種以點陣圖方式顯示的軟體視窗系統，在UNIX、類UNIX、以及OpenVMS等作業系統所一致適用的標準化軟體工具套件及顯示架構的運作協定。
+可透過軟體工具及架構協定來建立作業系統所用的圖形化使用者介面，此後則逐漸擴展適用到各形各色的其他作業系統上。現在幾乎所有的作業系統都能支援與使用X。
+
+
+
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+### VNC為一種使用RFB協定的螢幕畫面分享及遠端操作軟體。藉由網路，可傳送鍵盤與滑鼠的動作及即時的螢幕畫面。
+VNC與作業系統無關，因此可跨平台使用，例如可用Windows連線到某Linux的電腦，反之亦同。甚至在沒有安裝用戶端程式的電腦中，只要有支援JAVA的瀏覽器，也可使用。
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+###遠端桌面協定是一個多通道的協定，讓使用者連上提供微軟終端機服務的電腦（伺服器端或稱「遠端電腦」）。大部份的Windows都有用戶端所需軟體。其他作業系統也有這些用戶端軟體，例如Linux、FreeBSD、Mac OS X。
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+###.在Onshape或Slovespace中繪製單連桿機構並轉成stl檔案再導入V-REP做測試
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+## 使用 iframe 導入影片
+
+### 導入影片 第四週
+
+<iframe src="https://player.vimeo.com/video/212761593" width="640" height="359" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/212761593">2017CD 第四週</a> from <a href="https://vimeo.com/user46447136">40423248</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+    </script>
+</section>
+
+
+						
+</section>
+<section>
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+##第五週
+
+###1.如何在fossil筆記倉儲頁面顯示作業內容
+
+###2.把單連桿轉為.STL檔，再導入V-rep做動態模擬
+
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+###1.如何在fossil筆記倉儲頁面顯示作業內容
+
+###在WIKI裡新增一個與倉儲筆記同名稱的檔案，就會在FOSSIL筆記倉儲主頁顯示
+
+###建立時WIKI有三種格式，WIKI、MARKDOWN及HTML，安全性的排序:WIKI>MARKDOWN>HTML
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+####2.把單連桿轉為.STL檔，再導入V-rep做動態模擬
+
+<img src="data/Week4/bottom.png" width="500" />
+
+<img src="data/Week4/bar.png" width="500" />
+
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+## 
+
+<img src="data/Week4/link.png" width="500" />
+
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+<img src="data/Week4/vrep 1.png" width="600" />
+
+<img src="data/Week4/vrep 2.png" width="600" />
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+<img src="data/Week4/vrep 3.png" width="600" />
+
+<img src="data/Week4/vrep 4.png" width="600" />
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+<img src="data/Week4/vrep 5.png" width="600" />
+
+<img src="data/Week4/vrep 6.png" width="600" />
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+<img src="data/Week4/vrep 7.png" width="600" />
+
+<img src="data/Week4/vrep 8.png" width="600" />
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+## 使用 iframe 導入影片
+
+### 導入影片 template
+
+<iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </script>
+</section>
+
+
+						
+</section>
+<section>
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+##第六週
+##1.用Onshape裡面的變數限制條件來繪製四連桿，並導入V-REP做動
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+<img src="data/Week6/OS1.png" width="800" />
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+<img src="data/Week6/OS2.png" width="800" />
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+<img src="data/Week6/vrep.png" width="800" />
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+## 使用 iframe 導入影片
+
+### 導入影片 template
+
+<iframe src="https://player.vimeo.com/video/214692737" width="640" height="359" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/214692737">2017CD 第六週</a> from <a href="https://vimeo.com/user46447136">40423248</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+    </script>
+</section>
+
+
+						
+</section>
+<section>
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+##第六週
+
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+##1.none
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+## 2.
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+## 3.
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+## 使用 iframe 導入影片
+
+### 導入影片 template
+
+<iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </script>
+</section>
+
+
+						
+</section>
+<section>
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+##第八週
+
+期中自評
+
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+##1.none
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+## 2.
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+## 3.
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+## 使用 iframe 導入影片
+
+### 導入影片 template
+
+<iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </script>
+</section>
+
+
+						
+</section>
+<section>
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+##第九週
+###期中協同查驗與自評
+
+
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+##1.Fossil Server 實習查驗
+
+由組員或是組長在教室中用電腦建立fossil server,設定好使用者及密碼後再來是組員個別登錄上去,在wiki建立期中心得報告的格式,打入期中的心得
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+<img src="data/Week4/vrep 1.png" width="600" />
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+## 2.四連桿機構協同 Trace Point 查驗
+
+各組員用solvespace畫出四連桿,追蹤 T 點軌跡座標並另外檔 (請以 midterm1.csv, midterm2.csv .... 依序命名) 
+
+各組組員請依學號遞增排序, 排序第1者負責分析 Length=50 的 T 點軌跡圖, 其餘組員則依序將 Length -5的方式來縮減上三角的尺寸
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+<img src="data/Week9/fourbar-1.png" width="800" />
+
+
+
+
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+<img src="data/Week9/fourbar-2.png" width="800" />
+
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+##3.Fourbar Walker OnShape 零件協同繪圖與組立查驗
+
+請各組依照基本尺寸規劃, 以協同方式在 OnShape 環境中完成四連桿四足行走機構, 並分別拍攝協同規劃與實際操作影片, 將影片送到 1) Youtube 2) Vimeo 以及各組的 Fossil Server.
+
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+<img src"data/Week9/Fourbar Walker.png" width="600" />
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+###心得
+
+現在學到期中的部分,slovespace和Onshape變得比較熟練,V-REP的主從關係還是不太熟,最主要不懂的還是fossil server,得再去找人弄懂,大概給自己65分
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+## 使用 iframe 導入影片
+
+### 導入影片 template
+
+<iframe src="https://player.vimeo.com/video/213787448" width="640" height="512" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/213787448">2017CD 第九週-期中作業-四連桿機構協同 Trace Point 查驗</a> from <a href="https://vimeo.com/user46447136">40423248</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+    </script>
+</section>
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+## 使用 iframe 導入影片
+
+### 導入影片 template
+
+<iframe src="https://player.vimeo.com/video/213787524" width="640" height="512" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/213787524">2017CD 第九週-期中作業-Fourbar Walker OnShape 零件協同繪圖與組立查驗</a> from <a href="https://vimeo.com/user46447136">40423248</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+    </script>
+</section>
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+## 使用 iframe 導入影片
+
+### 導入影片 template
+
+<iframe src="https://player.vimeo.com/video/214812213" width="640" height="512" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/214812213">2017CD 第九週 Fourbar Walker V-REP模擬</a> from <a href="https://vimeo.com/user46447136">40423248</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+    </script>
+</section>
+
+
+						
+</section>
+<section>
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+##第十週
+
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+##1.none
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+## 2.
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+## 3.
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+## 使用 iframe 導入影片
+
+### 導入影片 template
+
+<iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </script>
+</section>
+
+
+						
+</section>
+<section>
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+##第十一週
+
+###1.小組協同閱讀兩本電子書翻譯並寫下心得:
+###An Introduction to Agile Product Design – by Onshape.pdf (The Move To Agile Design.pdf)
+###Onshape's Greatest Tech Tips– Volume 1.pdf
+
+###2.閱讀寫心得:
+###Designing Linkages in Context:
+https://www.onshape.com/cad-blog/designing-linkages-in-context 
+
+###FeatureScript:
+https://www.onshape.com/cad-blog/featurescript-its-so-easy-an-engineer-can-do-it
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+#####1.小組協同閱讀兩本電子書翻譯並寫下心得
+
+#####這裡為Onshape's Greatest Tech Tips– Volume 1.pdf
+
+一.比較指令:
+提供了可以檢視每次版本的不同,在設計時從原本的架構或是草圖,到後來隨著時間過去愈加愈多東西上去,就形成了許多的版次,
+Onshape的比較指令就是用來做現在的版本與過去的版本的對照,在版本和歷史的部分用下拉式選單裡面點Compare,就可以使用,可以和之前的任意
+版本做外觀和特徵的差異
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+二.跟隨模式:
+可以在Onshape線上即時的和你的夥伴修改和討論產品的外觀和細節,點右上方的social cue就可以開啟此功能,能夠即時的看到夥伴的螢幕狀況,
+要離開時只要在圖像上的任意處點一下左鍵就可以離開,不用像以前的CAD軟體要協同作業還需要用電子郵件或傳送截圖,又或是版本不相容等許多的問題,
+Onshape的線上功能已經克服了這些問題,提供有效率又即時的線上協同工作環境
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+三.匯入/導入DXF檔案:
+DXF和DWG檔案是現在工業2D繪圖部分重要的標準,在Onshape裡面要導入DXF和DWG檔案可以點左上方的箭頭圖案,或是左下方的+圖案,裡面的選單也有導入的箭頭圖案,
+點選導入後就可以瀏覽你想要導入的檔案,選擇你要的檔案來開啟,就可以導入至文件中,這時候可以做修改,也可以用此2D草圖來作3D建模,而要導出DXF檔的方式有兩
+種,第一種是用右鍵點一下在繪圖介面上的繪圖標籤,就有導出,第二個是用右鍵點一下草圖的任意面,也有導出DXF的選項,之後就是一些選項調整,不用做繁雜的手續
+來轉換檔案,只需要點個幾下就可以導入導出DXF或DWG檔案
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+四.捷徑工具列
+Onshape的捷徑工具列讓使用指令變的更方便,要用工具列只要在畫面上按一下S,工具列就會出現在繪圖畫面上的游標旁邊,而捷徑工具列的設定方式可以在帳號設定
+找到,打開後點偏好選項就可以開始自訂功能,要加入指令需要選取想要自訂的工具列,再選取草圖,零件,組裝,接著就可以加入想要的指令
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+五.加入評論
+對於設計團隊來說在3D模型中加入評論是相當簡單而且是相當有效率的方式,可以在線上討論作品的問題或細節處理,不用寄送電子郵件來討論,在Onshape的頁面右上角
+評論的圖示,可以把評論當成簡單的工具,能儲存和設計有關的註記,或是在線上即時和夥伴即時討論問題,也可以標記一些特定的特徵,不用互相傳截圖或電子郵件,是很
+方便的功能
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+六.插入時的快照模式
+快照模式可以更快建立組裝件,在插入零件時快照模式也能支援,只限定在自訂義連接配合時能用,用一個步驟就可以插入和配合零件,快照模式是從組裝工具列中調用或是按
+鍵盤上的S鍵,點選要連接的兩個零件的配合點,然後點著和壓著左鍵並拖曳到目標的配合點,當你把零件拖曳到可能的配合點,Onshape就會顯示出圖像預覽,如果不想要這
+個位置還可以再移到其他地方,可以省去一些時間,也能看到零件配合的預覽狀況,再慢慢作調整
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+七.綠色查驗(確認)以插入零件
+在組合零件時的插入零件可以用綠色查驗(確認)來取代原有的零件,可以省去一開始要配對零件的時間,但零件仍需要固定,第一步要做的事是先插入第一個零件,在工具列
+中點插入的指令,就會出現插入零件和組裝件的對話框,只要點選你想要的零件或多個零件就會看到該零件出現在頁面圖像中,但要注意一般在組裝視窗中插入的零件你會想
+要零件是放在正中央的,這表示要取代第一個零件你不能在組裝件視窗中的空位處點左鍵,這樣零件會亂跑,反之,用左鍵點插入零件和組裝件的對話框中的綠色查驗(確認),
+插入的零件就會自動取代原有的零件
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+八.多重瀏覽器標籤
+你可以在Onshape頁面中開啟許多的網頁標籤(視窗),想開幾個都可以,因為Onshape是以瀏覽器來運行,是以瀏覽器的基礎來運作,所以可以在頁面中同時開啟許多網頁標籤(視窗),
+Onshape也支援多重螢幕顯示,可以把網頁標籤(視窗)移到其他螢幕上,能夠處理好幾個零件或組裝件,而當其中的一個零件被修改後在其他有這個零件的視窗(如組裝件)就會即時
+變化,可以看到前後的差異,也可以在頁面標籤上點右鍵按在新瀏覽器標籤中開啟,這樣可以同步處理好幾個不同的零件或組裝程序,不用到處找檔案,很方便
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+九.捲動到此/捲動到尾端
+當特徵清單很長的時候可以在特徵歷史中前後捲動,找你想要重新檢視或修改的特徵,但是當特徵清單很長又有幾個特徵需要多次修改時,就要用到捲動到此/捲動到尾端得兩個功能,
+在特徵清單中找到想要修改的特徵時,再此特徵上點右鍵按Roll to here(捲動到此)的指令,系統就會把特徵清單尾端定在這裡,當修改完畢時就在特徵列上按Roll to end(捲動到尾端),
+系統就會把位置定回原來的尾端特徵,這樣要修改某個特徵時就不用到處找,找到就可以直接固定,不用弄得很麻煩
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+十.再導入檔案時按著Shift來點選檔案
+能夠省去手動一個一個點你想要的檔案的時間,可以點個兩三下就導入很多的檔案,當你想要從其他的CAD系統中導入檔案時就會用到這功能,要導入檔案時按左上方的箭頭圖案,
+或是左下方的+圖案,點選導入後就可以瀏覽你想要導入的檔案,這時按著Shift點第一個檔案再點最後一個檔案,全部的檔案都會被選取,就可以同時導入多個檔案
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+#####2.閱讀寫心得:
+#####Designing Linkages in Context:
+https://www.onshape.com/cad-blog/designing-linkages-in-context 
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+###2.閱讀寫心得:
+###FeatureScript:
+https://www.onshape.com/cad-blog/featurescript-its-so-easy-an-engineer-can-do-it
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+## 使用 iframe 導入影片
+
+### 導入影片 template
+
+<iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </script>
+</section>
+
+
+						
+</section>
+<section>
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+##第十二週
+
+使用漸開線原理, 用 Brython來繪製單一個正齒輪的輪廓
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+##1.none
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+## 2.
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+## 3.
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+## 使用 iframe 導入影片
+
+### 導入影片 template
+
+<iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </script>
+</section>
+
+
+						
+</section>
+<section>
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+###第十三週上課內容
+
+###1.用OnShape來繪製漸開線齒輪
+###參考:https://www.khkgears.co.jp/tw/gear_technology/pdf/gear_guide1.pdf
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+###1.用OnShape來繪製漸開線齒輪
+###參考:https://www.khkgears.co.jp/tw/gear_technology/pdf/gear_guide1.pdf
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+## 使用 iframe 導入影片
+
+### 導入影片 template
+
+<iframe src="https://player.vimeo.com/video/221450668" width="640" height="359" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </script>
+</section>
+
+
+						
+</section>
+<section>
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+##第十四週
+架設ubuntu伺服器
+
+###Ubuntu簡介:
+###Ubuntu是基於Debian的Linux發行版。Debian的版本更新時間不固定，但Ubuntu會固定在每年的4月和10月釋出新版(每半年一新版)，版本號碼就是「年份.月份」，例如在2014年4月發佈的版本，號碼就是14.04；在2009年10月發佈的版本，號碼就是9.10。通常每隔兩年會釋出一個更新支援期長達2年以上的LTS(Long Term Support)版本，例如10.04、12.04、14.04、16.04就是LTS版，LTS版本因為支援期長，有很多時間修復BUG，因此愈後期的LTS版，執行起來會更穩定，如果有架設伺服器的需求，安裝LTS版本會是較好的選擇，尤其又以安裝專門用來架設伺服器的Ubuntu Server最好。
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+##1.none
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+## 2.
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+## 3.
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+## 使用 iframe 導入影片
+
+### 導入影片 template
+
+<iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </script>
+</section>
+
+
+						
+</section>
+<section>
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+##第十四週
+架設ubuntu伺服器
+
+###Ubuntu簡介:
+###Ubuntu是基於Debian的Linux發行版。Debian的版本更新時間不固定，但Ubuntu會固定在每年的4月和10月釋出新版(每半年一新版)，版本號碼就是「年份.月份」，例如在2014年4月發佈的版本，號碼就是14.04；在2009年10月發佈的版本，號碼就是9.10。通常每隔兩年會釋出一個更新支援期長達2年以上的LTS(Long Term Support)版本，例如10.04、12.04、14.04、16.04就是LTS版，LTS版本因為支援期長，有很多時間修復BUG，因此愈後期的LTS版，執行起來會更穩定，如果有架設伺服器的需求，安裝LTS版本會是較好的選擇，尤其又以安裝專門用來架設伺服器的Ubuntu Server最好。
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+##1.none
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+## 2.
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+## 3.
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+## 使用 iframe 導入影片
+
+### 導入影片 template
+
+<iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </script>
+</section>
+
+
+						
+</section>
+<section>
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+##第十六週上課內容 W16
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+##1.老師介紹怎麼用Xming來連結Fossil伺服器
+<img src="data/Week16/xming-install1.png" width="600" />
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+## 2.
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+## 3.
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+## 使用 iframe 導入影片
+
+### 導入影片 template
+
+<iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </script>
+</section>
+
+
+						
+</section>
+<section>
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+##第十六週上課內容 W16
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+##1.老師介紹怎麼用Xming來連結Fossil伺服器
+<img src="data/Week16/xming-install1.png" width="600" />
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+## 2.
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+## 3.
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+## 使用 iframe 導入影片
+
+### 導入影片 template
+
+<iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </script>
+</section>
+
+
+						
+</section>
+<section>
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+##第十八週上課內容 W18
+
+###1.大概的介紹自己在其中之後做了哪些事
+
+###2.以下連結到行走機構網址:
+
+https://40423222.github.io/2017springcd_bg7/blog/%E6%9C%9F%E6%9C%AB%E8%A8%88%E7%95%AB-%E8%A1%8C%E8%B5%B0%E6%A9%9F%E6%A7%8B.html
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+##1.老師介紹怎麼用Xming來連結Fossil伺服器
+<img src="data/Week16/xming-install1.png" width="600" />
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+## 2.
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+## 3.
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+## 使用 iframe 導入影片
+
+### 導入影片 template
+
+<iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </script>
+</section>
+
+
+						
+</section>
+</div>
+
+</div>
+
+<script src="https://cad-lab.github.io/cadlab_data/reveal/lib/js/head.min.js"></script>
+<script src="https://cad-lab.github.io/cadlab_data/reveal/js/reveal.js"></script>
+<script>
+        // More info https://github.com/hakimel/reveal.js#configuration
+        Reveal.initialize({
+            controls: true,
+            progress: true,
+            history: true,
+            center: true,
+
+            transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+            // More info https://github.com/hakimel/reveal.js#dependencies
+            dependencies: [
+                { src: 'https://cad-lab.github.io/cadlab_data/reveal/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                { src: 'https://cad-lab.github.io/cadlab_data/reveal/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                { src: 'https://cad-lab.github.io/cadlab_data/reveal/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                { src: 'https://cad-lab.github.io/cadlab_data/reveal/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                { src: 'https://cad-lab.github.io/cadlab_data/reveal/plugin/zoom-js/zoom.js', async: true },
+                { src: 'https://cad-lab.github.io/cadlab_data/reveal/plugin/notes/notes.js', async: true },
+                { src: 'https://cad-lab.github.io/cadlab_data/reveal/plugin/math/math.js', async: true }
+            ]
+        });
+</script>
+</body>
+</html>
+

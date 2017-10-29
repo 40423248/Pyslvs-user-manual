@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en"
+>
+<head>
+    <title>2017CD第十一週 - 2017Spring 協同產品設計實習 (虎尾科大MDE)</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+<link rel="canonical" href="./2017springCD-Week11.html">
+
+        <meta name="author" content="40423248" />
+        <meta name="keywords" content="brython,w11" />
+        <meta name="description" content="第十一週上課內容 1.小組協同閱讀兩本電子書翻譯並寫下心得" />
+
+        <meta property="og:site_name" content="2017Spring 協同產品設計實習 (虎尾科大MDE)" />
+        <meta property="og:type" content="article"/>
+        <meta property="og:title" content="2017CD第十一週"/>
+        <meta property="og:url" content="./2017springCD-Week11.html"/>
+        <meta property="og:description" content="第十一週上課內容 1.小組協同閱讀兩本電子書翻譯並寫下心得"/>
+        <meta property="article:published_time" content="2017-03-04" />
+            <meta property="article:section" content="Course" />
+            <meta property="article:tag" content="brython" />
+            <meta property="article:tag" content="w11" />
+            <meta property="article:author" content="40423248" />
+
+
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="./theme/css/bootstrap.united.min.css" type="text/css"/>
+    <link href="./theme/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="./theme/css/pygments/monokai.css" rel="stylesheet">
+    <link href="./theme/tipuesearch/tipuesearch.css" rel="stylesheet">
+    <link rel="stylesheet" href="./theme/css/style.css" type="text/css"/>
+
+        <link href="./feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
+              title="2017Spring 協同產品設計實習 (虎尾科大MDE) ATOM Feed"/>
+
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shCore.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushJScript.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushJava.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushPython.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushSql.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushXml.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushPhp.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushCpp.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushCss.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushCSharp.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushBash.js"></script>
+<script type='text/javascript'>
+	(function(){
+		var corecss = document.createElement('link');
+		var themecss = document.createElement('link');
+		var corecssurl = "https://chiamingyen.github.io/kmolab_data/files/syntaxhighlighter/css/shCore.css";
+		if ( corecss.setAttribute ) {
+				corecss.setAttribute( "rel", "stylesheet" );
+				corecss.setAttribute( "type", "text/css" );
+				corecss.setAttribute( "href", corecssurl );
+		} else {
+				corecss.rel = "stylesheet";
+				corecss.href = corecssurl;
+		}
+		document.getElementsByTagName("head")[0].insertBefore( corecss, document.getElementById("syntaxhighlighteranchor") );
+		var themecssurl = "https://chiamingyen.github.io/kmolab_data/files/syntaxhighlighter/css/shThemeDefault.css?ver=3.0.9b";
+		if ( themecss.setAttribute ) {
+				themecss.setAttribute( "rel", "stylesheet" );
+				themecss.setAttribute( "type", "text/css" );
+				themecss.setAttribute( "href", themecssurl );
+		} else {
+				themecss.rel = "stylesheet";
+				themecss.href = themecssurl;
+		}
+		//document.getElementById("syntaxhighlighteranchor").appendChild(themecss);
+		document.getElementsByTagName("head")[0].insertBefore( themecss, document.getElementById("syntaxhighlighteranchor") );
+	})();
+	SyntaxHighlighter.config.strings.expandSource = '+ expand source';
+	SyntaxHighlighter.config.strings.help = '?';
+	SyntaxHighlighter.config.strings.alert = 'SyntaxHighlighter\n\n';
+	SyntaxHighlighter.config.strings.noBrush = 'Can\'t find brush for: ';
+	SyntaxHighlighter.config.strings.brushNotHtmlScript = 'Brush wasn\'t configured for html-script option: ';
+	SyntaxHighlighter.defaults['pad-line-numbers'] = false;
+	SyntaxHighlighter.defaults['toolbar'] = false;
+	SyntaxHighlighter.all();
+</script>
+
+</head>
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="./" class="navbar-brand">
+2017Spring 協同產品設計實習 (虎尾科大MDE)            </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                         <li><a href="./pages/about/">
+                             About
+                          </a></li>
+                        <li class="active">
+                            <a href="./category/course.html">Course</a>
+                        </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><span>
+                <form class="navbar-search" action="./search.html">
+                  <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input" required>
+                </form></span>
+              </li>
+              <li><a href="./archives.html"><i class="fa fa-th-list"></i><span class="icon-label">Archives</span></a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</div> <!-- /.navbar -->
+<!-- Banner -->
+<!-- End Banner -->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-9">
+
+    <section id="content">
+        <article>
+            <header class="page-header">
+                <h1>
+                    <a href="./2017springCD-Week11.html"
+                       rel="bookmark"
+                       title="Permalink to 2017CD第十一週">
+                        2017CD第十一週
+                    </a>
+                </h1>
+            </header>
+            <div class="entry-content">
+                <div class="panel">
+                    <div class="panel-body">
+<footer class="post-info">
+    <span class="label label-default">Date</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time datetime="2017-03-04T11:00:00+08:00"> Sat 04 March 2017</time>
+    </span>
+            <span class="label label-default">By</span>
+            <a href="./author/40423248.html"><i class="fa fa-user"></i> 40423248</a>
+
+
+
+<span class="label label-default">Tags</span>
+	<a href="./tag/brython.html">brython</a>
+        /
+	<a href="./tag/w11.html">w11</a>
+    
+</footer><!-- /.post-info -->                    </div>
+                </div>
+                <p>第十一週上課內容</p>
+<h3>1.小組協同閱讀兩本電子書翻譯並寫下心得</h3>
+
+
+<h3>這裡為Onshape's Greatest Tech Tips– Volume 1.pdf</h3>
+<h3>一.比較指令:</h3>
+<p>提供了可以檢視每次版本的不同,在設計時從原本的架構或是草圖,到後來隨著時間過去愈加愈多東西上去,就形成了許多的版次,
+Onshape的比較指令就是用來做現在的版本與過去的版本的對照,在版本和歷史的部分用下拉式選單裡面點Compare,就可以使用,可以和之前的任意
+版本做外觀和特徵的差異</p>
+<h3>二.跟隨模式:</h3>
+<p>可以在Onshape線上即時的和你的夥伴修改和討論產品的外觀和細節,點右上方的social cue就可以開啟此功能,能夠即時的看到夥伴的螢幕狀況,
+要離開時只要在圖像上的任意處點一下左鍵就可以離開,不用像以前的CAD軟體要協同作業還需要用電子郵件或傳送截圖,又或是版本不相容等許多的問題,
+Onshape的線上功能已經克服了這些問題,提供有效率又即時的線上協同工作環境</p>
+<h3>三.匯入/導入DXF檔案:</h3>
+<p>DXF和DWG檔案是現在工業2D繪圖部分重要的標準,在Onshape裡面要導入DXF和DWG檔案可以點左上方的箭頭圖案,或是左下方的+圖案,裡面的選單也有導入的箭頭圖案,
+點選導入後就可以瀏覽你想要導入的檔案,選擇你要的檔案來開啟,就可以導入至文件中,這時候可以做修改,也可以用此2D草圖來作3D建模,而要導出DXF檔的方式有兩
+種,第一種是用右鍵點一下在繪圖介面上的繪圖標籤,就有導出,第二個是用右鍵點一下草圖的任意面,也有導出DXF的選項,之後就是一些選項調整,不用做繁雜的手續
+來轉換檔案,只需要點個幾下就可以導入導出DXF或DWG檔案</p>
+<h3>四.捷徑工具列</h3>
+<p>Onshape的捷徑工具列讓使用指令變的更方便,要用工具列只要在畫面上按一下S,工具列就會出現在繪圖畫面上的游標旁邊,而捷徑工具列的設定方式可以在帳號設定
+找到,打開後點偏好選項就可以開始自訂功能,要加入指令需要選取想要自訂的工具列,再選取草圖,零件,組裝,接著就可以加入想要的指令</p>
+<h3>五.加入評論</h3>
+<p>對於設計團隊來說在3D模型中加入評論是相當簡單而且是相當有效率的方式,可以在線上討論作品的問題或細節處理,不用寄送電子郵件來討論,在Onshape的頁面右上角
+評論的圖示,可以把評論當成簡單的工具,能儲存和設計有關的註記,或是在線上即時和夥伴即時討論問題,也可以標記一些特定的特徵,不用互相傳截圖或電子郵件,是很
+方便的功能</p>
+<h3>六.插入時的快照模式</h3>
+<p>快照模式可以更快建立組裝件,在插入零件時快照模式也能支援,只限定在自訂義連接配合時能用,用一個步驟就可以插入和配合零件,快照模式是從組裝工具列中調用或是按
+鍵盤上的S鍵,點選要連接的兩個零件的配合點,然後點著和壓著左鍵並拖曳到目標的配合點,當你把零件拖曳到可能的配合點,Onshape就會顯示出圖像預覽,如果不想要這
+個位置還可以再移到其他地方,可以省去一些時間,也能看到零件配合的預覽狀況,再慢慢作調整</p>
+<h3>七.綠色查驗(確認)以插入零件</h3>
+<p>在組合零件時的插入零件可以用綠色查驗(確認)來取代原有的零件,可以省去一開始要配對零件的時間,但零件仍需要固定,第一步要做的事是先插入第一個零件,在工具列
+中點插入的指令,就會出現插入零件和組裝件的對話框,只要點選你想要的零件或多個零件就會看到該零件出現在頁面圖像中,但要注意一般在組裝視窗中插入的零件你會想
+要零件是放在正中央的,這表示要取代第一個零件你不能在組裝件視窗中的空位處點左鍵,這樣零件會亂跑,反之,用左鍵點插入零件和組裝件的對話框中的綠色查驗(確認),
+插入的零件就會自動取代原有的零件</p>
+<h3>八.多重瀏覽器標籤</h3>
+<p>你可以在Onshape頁面中開啟許多的網頁標籤(視窗),想開幾個都可以,因為Onshape是以瀏覽器來運行,是以瀏覽器的基礎來運作,所以可以在頁面中同時開啟許多網頁標籤(視窗),
+Onshape也支援多重螢幕顯示,可以把網頁標籤(視窗)移到其他螢幕上,能夠處理好幾個零件或組裝件,而當其中的一個零件被修改後在其他有這個零件的視窗(如組裝件)就會即時
+變化,可以看到前後的差異,也可以在頁面標籤上點右鍵按在新瀏覽器標籤中開啟,這樣可以同步處理好幾個不同的零件或組裝程序,不用到處找檔案,很方便</p>
+<h3>九.捲動到此/捲動到尾端</h3>
+<p>當特徵清單很長的時候可以在特徵歷史中前後捲動,找你想要重新檢視或修改的特徵,但是當特徵清單很長又有幾個特徵需要多次修改時,就要用到捲動到此/捲動到尾端得兩個功能,
+在特徵清單中找到想要修改的特徵時,再此特徵上點右鍵按Roll to here(捲動到此)的指令,系統就會把特徵清單尾端定在這裡,當修改完畢時就在特徵列上按Roll to end(捲動到尾端),
+系統就會把位置定回原來的尾端特徵,這樣要修改某個特徵時就不用到處找,找到就可以直接固定,不用弄得很麻煩</p>
+<h3>十.再導入檔案時按著Shift來點選檔案</h3>
+<p>能夠省去手動一個一個點你想要的檔案的時間,可以點個兩三下就導入很多的檔案,當你想要從其他的CAD系統中導入檔案時就會用到這功能,要導入檔案時按左上方的箭頭圖案,
+或是左下方的+圖案,點選導入後就可以瀏覽你想要導入的檔案,這時按著Shift點第一個檔案再點最後一個檔案,全部的檔案都會被選取,就可以同時導入多個檔案</p>
+<h3>2.閱讀寫心得:</h3>
+<h3>Designing Linkages in Context:</h3>
+<p>https://www.onshape.com/cad-blog/designing-linkages-in-context </p>
+<h3>FeatureScript:</h3>
+<p>https://www.onshape.com/cad-blog/featurescript-its-so-easy-an-engineer-can-do-it</p>
+            </div>
+            <!-- /.entry-content -->
+        </article>
+    </section>
+
+        </div>
+        <div class="col-sm-3" id="sidebar">
+            <aside>
+
+<section class="well well-sm">
+    <ul class="list-group list-group-flush">
+
+            <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
+                <ul class="list-group" id="recentposts">
+                    <li class="list-group-item">
+                        <a href="./2017springCD-Week18.html">
+                            2017CD第十八週
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="./2017springCD-Week17.html">
+                            2017CD第十七週
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="./2017springCD-Week16.html">
+                            2017CD第十六週
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="./2017springCD-Week15-2.html">
+                            2017CD第十五週-2
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="./2017springCD-Week15.html">
+                            2017CD第十五週
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="list-group-item"><a href="./categories.html"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Categories</span></h4></a>
+                <ul class="list-group" id="categories">
+                    <li class="list-group-item">
+                        <a href="./category/course.html">
+                            <i class="fa fa-folder-open fa-lg"></i> Course
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="list-group-item"><a href="./tags.html"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
+                <ul class="list-group list-inline tagcloud" id="tags">
+                </ul>
+            </li>
+    <li class="list-group-item"><h4><i class="fa fa-external-link-square fa-lg"></i><span class="icon-label">Links</span></h4>
+      <ul class="list-group" id="links">
+        <li class="list-group-item">
+            <a href="http://getpelican.com/" target="_blank">
+                Pelican
+            </a>
+        </li>
+        <li class="list-group-item">
+            <a href="https://github.com/DandyDev/pelican-bootstrap3/" target="_blank">
+                pelican-bootstrap3
+            </a>
+        </li>
+        <li class="list-group-item">
+            <a href="https://github.com/getpelican/pelican-plugins" target="_blank">
+                pelican-plugins
+            </a>
+        </li>
+        <li class="list-group-item">
+            <a href="https://github.com/Tipue/Tipue-Search" target="_blank">
+                Tipue search
+            </a>
+        </li>
+      </ul>
+    </li>
+    </ul>
+</section>
+            </aside>
+        </div>
+    </div>
+</div>
+<footer>
+   <div class="container">
+      <hr>
+      <div class="row">
+         <div class="col-xs-10">&copy; 2017 KMOL
+            &middot; Powered by <a href="https://github.com/DandyDev/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
+            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
+            <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>
+         <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
+      </div>
+   </div>
+</footer>
+<script src="./theme/js/jquery.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="./theme/js/bootstrap.min.js"></script>
+
+<!-- for https://github.com/jsor/lity lightbox video popup -->
+
+<link href="./theme/css/lity.css" rel="stylesheet">
+
+<script src="./theme/js/lity.js"></script>
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="./theme/js/respond.min.js"></script>
+
+
+</body>
+</html>
