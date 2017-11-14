@@ -9,7 +9,11 @@
 &lt;img src="./../data/P/001-a.png" width="1100" /&gt;
 1.檔案 2.編輯 3.機構 4.選項 5.幫助&lt;/p&gt;
 &lt;p&gt;檔案中的內容:
-&lt;img src="./../data/P/002-a.png" width="1100" /&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;使用說明(1)及簡介:&lt;/p&gt;
+&lt;img src="./../data/P/002-a.png" width="1100" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="./../data/P/003-a.png" width="1100" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="./../data/P/004-a.png" width="1100" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="./../data/P/005-a.png" width="1100" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="./../data/P/006-a.png" width="1100" /&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;使用說明(1)及簡介:&lt;/p&gt;
 &lt;p&gt;Pyslvs基本是由Python和slovespace所開發出來的運動模擬軟體
 可以在此軟體中用點和直線的連結來做基本的連桿運動分析及位置紀錄&lt;/p&gt;
 &lt;p&gt;以下為0.9dev版本的介面說明:&lt;/p&gt;
@@ -19,4 +23,8 @@
 &lt;img src="./../data/P/001-a.png" width="1100" /&gt;
 1.檔案 2.編輯 3.機構 4.選項 5.幫助&lt;/p&gt;
 &lt;p&gt;檔案中的內容:
-&lt;img src="./../data/P/002-a.png" width="1100" /&gt;&lt;/p&gt;</content><category term="brython"></category><category term="w1"></category></entry></feed>
+&lt;img src="./../data/P/002-a.png" width="1100" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="./../data/P/003-a.png" width="1100" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="./../data/P/004-a.png" width="1100" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="./../data/P/005-a.png" width="1100" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="./../data/P/006-a.png" width="1100" /&gt;&lt;/p&gt;</content><category term="brython"></category><category term="w1"></category></entry></feed>
