@@ -52,7 +52,13 @@
 &lt;h3&gt;點選一個點,再點選另外一個點(要按著CTRL),接著再按下L,就會形成一根連桿&lt;/h3&gt;
 &lt;h6&gt;如下圖:&lt;/h6&gt;
 &lt;p&gt;&lt;img src="./../data/P/102-e.png" width="1100" /&gt;
-&lt;img src="./../data/P/102-f.png" width="1100" /&gt;&lt;/p&gt;</content><category term="brython"></category><category term="w2"></category></entry><entry><title>Pyslvs-user-manual-1</title><link href="./2017springCD-Week1.html" rel="alternate"></link><published>2017-02-22T11:00:00+08:00</published><updated>2017-02-22T11:00:00+08:00</updated><author><name>40423248</name></author><id>tag:None,2017-02-22:./2017springCD-Week1.html</id><summary type="html">&lt;h4&gt;簡介及介面介紹:&lt;/h4&gt;
+&lt;img src="./../data/P/102-f.png" width="1100" /&gt;&lt;/p&gt;
+&lt;h3&gt;接著把其他的連桿也都接起來,就如下圖:&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/P/102-g.png" width="1100" /&gt;&lt;/p&gt;
+&lt;h3&gt;再來是調整點的位置,調整完後,如下圖:&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/P/102-h.png" width="1100" /&gt;&lt;/p&gt;
+&lt;h3&gt;這邊還要做固定點,要固定某一點時,在該點上點右鍵,點選Fixed&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/P/102-i.png" width="1100" /&gt;&lt;/p&gt;</content><category term="brython"></category><category term="w2"></category></entry><entry><title>Pyslvs-user-manual-1</title><link href="./2017springCD-Week1.html" rel="alternate"></link><published>2017-02-22T11:00:00+08:00</published><updated>2017-02-22T11:00:00+08:00</updated><author><name>40423248</name></author><id>tag:None,2017-02-22:./2017springCD-Week1.html</id><summary type="html">&lt;h4&gt;簡介及介面介紹:&lt;/h4&gt;
 &lt;h3&gt;Pyslvs基本是由Python和slovespace所開發出來的運動模擬軟體&lt;/h3&gt;
 &lt;h3&gt;可以在此軟體中用點和直線的連結來做基本的連桿運動分析及位置紀錄&lt;/h3&gt;
 &lt;h3&gt;此版本為0.9dev,目前處於開發中的階段,有部分功能尚未開放,現在做的是基本測試&lt;/h3&gt;
