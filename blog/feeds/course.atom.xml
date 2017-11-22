@@ -47,7 +47,8 @@
 &lt;p&gt;&lt;img src="./../data/P/102-m.png" width="1100" /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src="./../data/P/102-n.png" width="1100" /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src="./../data/P/102-o.png" width="1100" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="./../data/P/102-p.png" width="1100" /&gt;&lt;/p&gt;</content><category term="brython"></category><category term="w2"></category></entry><entry><title>Pyslvs-user-manual-1</title><link href="./2017springCD-Week1.html" rel="alternate"></link><published>2017-02-22T11:00:00+08:00</published><updated>2017-02-22T11:00:00+08:00</updated><author><name>40423248</name></author><id>tag:None,2017-02-22:./2017springCD-Week1.html</id><summary type="html">&lt;h4&gt;簡介及介面介紹:&lt;/h4&gt;
+&lt;p&gt;&lt;img src="./../data/P/102-p.png" width="1100" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="./../data/P/102-q.png" width="1100" /&gt;&lt;/p&gt;</content><category term="brython"></category><category term="w2"></category></entry><entry><title>Pyslvs-user-manual-1</title><link href="./2017springCD-Week1.html" rel="alternate"></link><published>2017-02-22T11:00:00+08:00</published><updated>2017-02-22T11:00:00+08:00</updated><author><name>40423248</name></author><id>tag:None,2017-02-22:./2017springCD-Week1.html</id><summary type="html">&lt;h4&gt;簡介及介面介紹:&lt;/h4&gt;
 &lt;h3&gt;Pyslvs基本是由Python和slovespace所開發出來的運動模擬軟體&lt;/h3&gt;
 &lt;h3&gt;可以在此軟體中用點和直線的連結來做基本的連桿運動分析及位置紀錄&lt;/h3&gt;
 &lt;h3&gt;此版本為0.9dev,目前處於開發中的階段,有部分功能尚未開放,現在做的是基本測試&lt;/h3&gt;
@@ -132,4 +133,8 @@
 &lt;h3&gt;變數(紫色框):上面的條件順序決定好後導入這裡,可以做順時針或逆時針的旋轉(自動或手動),&lt;/h3&gt;
 &lt;h3&gt;也可以捨棄此變數條件(垃圾桶圖示)&lt;/h3&gt;
 &lt;p&gt;&lt;img src="./../data/P/009-c.png" width="1100" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="./../data/P/009-d.png" width="1100" /&gt;&lt;/p&gt;</content><category term="brython"></category><category term="w1"></category></entry></feed>
+&lt;h3&gt;記錄區(棕色框):可以把模擬過的路徑資料記錄在這裡&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/P/009-d.png" width="1100" /&gt;&lt;/p&gt;
+&lt;h3&gt;左側邊的部分(藍框部分-3):&lt;/h3&gt;
+&lt;h3&gt;合成:&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/P/010-a.png" width="1100" /&gt;&lt;/p&gt;</content><category term="brython"></category><category term="w1"></category></entry></feed>
