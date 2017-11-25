@@ -152,4 +152,15 @@
 &lt;h3&gt;左側邊的部分(藍框部分-4):&lt;/h3&gt;
 &lt;h3&gt;歷史(歷程):&lt;/h3&gt;
 &lt;p&gt;&lt;img src="./../data/P/011-a.png" width="1100" /&gt;
-&lt;img src="./../data/P/011-2-a.png" width="1100" /&gt;&lt;/p&gt;</content><category term="brython"></category><category term="w1"></category></entry></feed>
+&lt;img src="./../data/P/011-2-a.png" width="1100" /&gt;&lt;/p&gt;
+&lt;h3&gt;左側邊的部分(藍框部分-5):&lt;/h3&gt;
+&lt;h3&gt;設定:&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/P/012.png" width="1100" /&gt;
+&lt;img src="./../data/P/012-a.png" width="1100" /&gt;&lt;/p&gt;
+&lt;h3&gt;1.線寬:可調整連桿的寬度&lt;/h3&gt;
+&lt;h3&gt;2.字型:可調整字體的大小&lt;/h3&gt;
+&lt;h3&gt;3.路徑寬度:可調整移動路徑的寬度&lt;/h3&gt;
+&lt;h3&gt;4.比例因子:&lt;/h3&gt;
+&lt;h3&gt;5.控制台:在GUI控制台裡面顯示運動中的錯誤資料&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/P/012-b.png" width="1100" /&gt;&lt;/p&gt;
+&lt;h3&gt;6.歷史:可調整取消和恢復的次數上下限&lt;/h3&gt;</content><category term="brython"></category><category term="w1"></category></entry></feed>
