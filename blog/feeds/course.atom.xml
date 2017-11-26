@@ -7,7 +7,29 @@
 &lt;h3&gt;1.動作執行太快時程式會直接跳掉:&lt;/h3&gt;
 &lt;h3&gt;譬如說返回上一個動作的指令(CTRL+Z)按的太快的時候,如下:&lt;/h3&gt;
 &lt;p&gt;&lt;img src="./../data/P301.png" width="1100" /&gt;&lt;/p&gt;
-&lt;h3&gt;2.不能作搖擺運動:&lt;/h3&gt;</content><category term="brython"></category><category term="w4"></category></entry><entry><title>2017CD第三週</title><link href="./2017springCD-Week3.html" rel="alternate"></link><published>2017-02-24T11:00:00+08:00</published><updated>2017-02-24T11:00:00+08:00</updated><author><name>40423248</name></author><id>tag:None,2017-02-24:./2017springCD-Week3.html</id><summary type="html">&lt;h3&gt;其他試作範例:&lt;/h3&gt;</summary><content type="html">&lt;h3&gt;其他試作範例:&lt;/h3&gt;</content><category term="brython"></category><category term="w3"></category></entry><entry><title>Pyslvs-user-manual-2</title><link href="./2017springCD-Week2.html" rel="alternate"></link><published>2017-02-23T11:00:00+08:00</published><updated>2017-02-23T11:00:00+08:00</updated><author><name>40423248</name></author><id>tag:None,2017-02-23:./2017springCD-Week2.html</id><summary type="html">&lt;h4&gt;使用說明:&lt;/h4&gt;
+&lt;h3&gt;2.不能作搖擺運動:&lt;/h3&gt;</content><category term="brython"></category><category term="w4"></category></entry><entry><title>2017CD第三週</title><link href="./2017springCD-Week3.html" rel="alternate"></link><published>2017-02-24T11:00:00+08:00</published><updated>2017-02-24T11:00:00+08:00</updated><author><name>40423248</name></author><id>tag:None,2017-02-24:./2017springCD-Week3.html</id><summary type="html">&lt;h3&gt;其他試作範例:&lt;/h3&gt;
+&lt;iframe src="https://player.vimeo.com/video/244522382" width="640" height="343" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/244522382"&gt;Pyslvs 0.9-beta.1 test Robert Mechaniam&lt;/a&gt; from &lt;a href="https://vimeo.com/user46447136"&gt;40423248&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;iframe src="https://player.vimeo.com/video/244522368" width="640" height="343" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/244522368"&gt;Pyslvs 0.9-beta.1 test Drag-link Mechanism&lt;/a&gt; from &lt;a href="https://vimeo.com/user46447136"&gt;40423248&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;iframe src="https://player.vimeo.com/video/244522379" width="640" height="343" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/244522379"&gt;Pyslvs 0.9-beta.1 test Parallel crank four-bar linkage&lt;/a&gt; from &lt;a href="https://vimeo.com/user46447136"&gt;40423248&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><content type="html">&lt;h3&gt;其他試作範例:&lt;/h3&gt;
+&lt;iframe src="https://player.vimeo.com/video/244522382" width="640" height="343" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/244522382"&gt;Pyslvs 0.9-beta.1 test Robert Mechaniam&lt;/a&gt; from &lt;a href="https://vimeo.com/user46447136"&gt;40423248&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;iframe src="https://player.vimeo.com/video/244522368" width="640" height="343" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/244522368"&gt;Pyslvs 0.9-beta.1 test Drag-link Mechanism&lt;/a&gt; from &lt;a href="https://vimeo.com/user46447136"&gt;40423248&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;iframe src="https://player.vimeo.com/video/244522379" width="640" height="343" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/244522379"&gt;Pyslvs 0.9-beta.1 test Parallel crank four-bar linkage&lt;/a&gt; from &lt;a href="https://vimeo.com/user46447136"&gt;40423248&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</content><category term="brython"></category><category term="w3"></category></entry><entry><title>Pyslvs-user-manual-2</title><link href="./2017springCD-Week2.html" rel="alternate"></link><published>2017-02-23T11:00:00+08:00</published><updated>2017-02-23T11:00:00+08:00</updated><author><name>40423248</name></author><id>tag:None,2017-02-23:./2017springCD-Week2.html</id><summary type="html">&lt;h4&gt;使用說明:&lt;/h4&gt;
 &lt;h3&gt;這邊來說明Pyslvs基本的使用方式,先從基本的曲柄搖桿四連桿機構開始:&lt;/h3&gt;
 </summary><content type="html">&lt;h4&gt;使用說明:&lt;/h4&gt;
 &lt;h3&gt;這邊來說明Pyslvs基本的使用方式,先從基本的曲柄搖桿四連桿機構開始:&lt;/h3&gt;
