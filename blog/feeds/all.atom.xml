@@ -30,9 +30,16 @@
 &lt;h4&gt;此連桿的最短桿為固定桿(point0+point3),曲柄(point0+point2),(point3+point4)可以做整圈的旋轉&lt;/h4&gt;
 &lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/244522368" width="640" height="343" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;a href="https://vimeo.com/244522368"&gt;Pyslvs 0.9-beta.1 test Drag-link Mechanism&lt;/a&gt; from &lt;a href="https://vimeo.com/user46447136"&gt;40423248&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;img src="./../data/P/203.png" width="1100" /&gt;&lt;/p&gt;
 &lt;iframe src="https://player.vimeo.com/video/244522379" width="640" height="343" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;p&gt;&lt;a href="https://vimeo.com/244522379"&gt;Pyslvs 0.9-beta.1 test Parallel crank four-bar linkage&lt;/a&gt; from &lt;a href="https://vimeo.com/user46447136"&gt;40423248&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</content><category term="brython"></category><category term="w3"></category></entry><entry><title>Pyslvs-user-manual-2</title><link href="./2017springCD-Week2.html" rel="alternate"></link><published>2017-02-23T11:00:00+08:00</published><updated>2017-02-23T11:00:00+08:00</updated><author><name>40423248</name></author><id>tag:None,2017-02-23:./2017springCD-Week2.html</id><summary type="html">&lt;h4&gt;使用說明:&lt;/h4&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/244522379"&gt;Pyslvs 0.9-beta.1 test Parallel crank four-bar linkage&lt;/a&gt; from &lt;a href="https://vimeo.com/user46447136"&gt;40423248&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;Double rocker mechanism&lt;/h3&gt;
+&lt;iframe src="https://player.vimeo.com/video/244676638" width="640" height="343" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/244676638"&gt;Pyslvs 0.9-beta.1 test Double rocker mechanism&lt;/a&gt; from &lt;a href="https://vimeo.com/user46447136"&gt;40423248&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</content><category term="brython"></category><category term="w3"></category></entry><entry><title>Pyslvs-user-manual-2</title><link href="./2017springCD-Week2.html" rel="alternate"></link><published>2017-02-23T11:00:00+08:00</published><updated>2017-02-23T11:00:00+08:00</updated><author><name>40423248</name></author><id>tag:None,2017-02-23:./2017springCD-Week2.html</id><summary type="html">&lt;h4&gt;使用說明:&lt;/h4&gt;
 &lt;h3&gt;這邊來說明Pyslvs基本的使用方式,先從基本的曲柄搖桿四連桿機構開始:&lt;/h3&gt;
 </summary><content type="html">&lt;h4&gt;使用說明:&lt;/h4&gt;
 &lt;h3&gt;這邊來說明Pyslvs基本的使用方式,先從基本的曲柄搖桿四連桿機構開始:&lt;/h3&gt;
