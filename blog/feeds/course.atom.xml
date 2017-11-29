@@ -5,8 +5,8 @@
 &lt;h4&gt;此版本為更新版Pyslvs 0.9-beta.2,新增了一些功能,和修改了部分介面,如下:&lt;/h4&gt;
 
 
+&lt;h3&gt;檔案區的功能已全開放&lt;/h3&gt;
 &lt;p&gt;&lt;img src="./../data/P401-a2.png" width="1100" /&gt;&lt;/p&gt;
-&lt;h4&gt;檔案區的功能已全開放&lt;/h4&gt;
 &lt;h4&gt;1.開啟新的工作簿&lt;/h4&gt;
 &lt;h4&gt;2.讀取工作簿:&lt;/h4&gt;
 &lt;h4&gt;現在可以做存檔的動作&lt;/h4&gt;
@@ -24,7 +24,12 @@
 &lt;h4&gt;9.導出為:&lt;/h4&gt;
 &lt;p&gt;(1)Pyslvs特徵(2)圖片檔(如png , jpg , bmp等......)(3)PMKS網路&lt;/p&gt;
 &lt;h4&gt;10.全螢幕&lt;/h4&gt;
-&lt;h4&gt;11.離開&lt;/h4&gt;</content><category term="brython"></category><category term="w5"></category></entry><entry><title>2017CD第四週</title><link href="./2017springCD-Week4.html" rel="alternate"></link><published>2017-02-25T11:00:00+08:00</published><updated>2017-02-25T11:00:00+08:00</updated><author><name>40423248</name></author><id>tag:None,2017-02-25:./2017springCD-Week4.html</id><summary type="html">&lt;h3&gt;0.9dev版本的問題:&lt;/h3&gt;
+&lt;h4&gt;11.離開&lt;/h4&gt;
+&lt;h3&gt;輸入區:&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/P402-a.png" width="1100" /&gt;&lt;/p&gt;
+&lt;h4&gt;這裡新增了調整旋轉速度的功能&lt;/h4&gt;
+&lt;h3&gt;左邊的分析區:&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/P403-a.png" width="1100" /&gt;&lt;/p&gt;</content><category term="brython"></category><category term="w5"></category></entry><entry><title>2017CD第四週</title><link href="./2017springCD-Week4.html" rel="alternate"></link><published>2017-02-25T11:00:00+08:00</published><updated>2017-02-25T11:00:00+08:00</updated><author><name>40423248</name></author><id>tag:None,2017-02-25:./2017springCD-Week4.html</id><summary type="html">&lt;h3&gt;0.9dev版本的問題:&lt;/h3&gt;
 &lt;h4&gt;1.動作執行太快時程式會直接跳掉:&lt;/h4&gt;
 &lt;h4&gt;譬如說返回上一個動作的指令(CTRL+Z)按的太快的時候,如下:&lt;/h4&gt;
 &lt;p&gt;&lt;img src="./../data/P301.png" width="1100" /&gt;&lt;/p&gt;
