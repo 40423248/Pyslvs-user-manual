@@ -46,12 +46,15 @@
 &lt;h4&gt;1.ZMQ generate:&lt;/h4&gt;
 &lt;h4&gt;2.Local generate:以函數式產生的座標來生成另外的連桿運動圖,在程式內部執行,有座標時點擊按鈕會出現該視窗,如下圖:&lt;/h4&gt;
 &lt;p&gt;&lt;img src="./../data/P/010-a3.png" width="1100" /&gt;&lt;/p&gt;
-&lt;h3&gt;澄色框中的內容:&lt;/h3&gt;
+&lt;h3&gt;橙色框中的內容:&lt;/h3&gt;
 &lt;p&gt;&lt;img src="./../data/P/010-a4.png" width="1100" /&gt;&lt;/p&gt;
 &lt;h4&gt;1.白色框中出現的會是完成的動態圖&lt;/h4&gt;
 &lt;h4&gt;2.chart按鈕:此功能未開放,按了程式會跳出&lt;/h4&gt;
 &lt;h4&gt;3.delete按鈕:刪除產生的動態圖&lt;/h4&gt;
 &lt;h4&gt;4.merge按鈕:此功能未開放,按了程式會跳出&lt;/h4&gt;
+&lt;h3&gt;棕色框中的內容:&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/P/010-a4.png" width="1100" /&gt;&lt;/p&gt;
+&lt;h4&gt;1.&lt;/h4&gt;
 &lt;h3&gt;以下是使用的概況:&lt;/h3&gt;
 &lt;p&gt;&lt;img src="./../data/P/010-i.png" width="1100" /&gt;&lt;/p&gt;
 &lt;h4&gt;1.在路徑中的白框內已經透過函數式功能產生了八個座標點&lt;/h4&gt;</content><category term="brython"></category><category term="w7"></category></entry><entry><title>2017CD第六週</title><link href="./2017springCD-Week6.html" rel="alternate"></link><published>2017-02-27T11:00:00+08:00</published><updated>2017-02-27T11:00:00+08:00</updated><author><name>40423248</name></author><id>tag:None,2017-02-27:./2017springCD-Week6.html</id><summary type="html"></summary><content type="html"></content><category term="brython"></category><category term="w6"></category></entry><entry><title>2017CD第五週</title><link href="./2017springCD-Week5.html" rel="alternate"></link><published>2017-02-26T11:00:00+08:00</published><updated>2017-02-26T11:00:00+08:00</updated><author><name>40423248</name></author><id>tag:None,2017-02-26:./2017springCD-Week5.html</id><summary type="html">&lt;h3&gt;簡介及介面介紹2:&lt;/h3&gt;
