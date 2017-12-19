@@ -201,7 +201,8 @@ namespace FireflyAlgorithm
 &lt;h3&gt;輸入區:&lt;/h3&gt;
 &lt;p&gt;&lt;img src="./../data/P402-a.png" width="1100" /&gt;&lt;/p&gt;
 &lt;h4&gt;這裡新增了調整旋轉速度的功能,可輸入任意的轉速,也可以逆時針旋轉&lt;/h4&gt;
-&lt;h4&gt;Path(路徑區)這裡新增了複製路徑的功能,在此記錄&lt;/h4&gt;
+&lt;h4&gt;Path(路徑區)這裡新增了複製路徑的功能,在此記錄中的路徑可以選擇其中一個點,複製並貼到維度分析裡面做運算&lt;/h4&gt;
+&lt;p&gt;&lt;img src="./../data/P402-a.png" width="1100" /&gt;&lt;/p&gt;
 &lt;h3&gt;左邊的分析區:&lt;/h3&gt;
 &lt;p&gt;&lt;img src="./../data/P403-a.png" width="1100" /&gt;&lt;/p&gt;
 &lt;h3&gt;綠色方框中的內容:&lt;/h3&gt;
@@ -225,7 +226,8 @@ namespace FireflyAlgorithm
 &lt;h4&gt;2.Firefly Algorithm(八連桿)動態圖可以正常生成,程式不會跳掉&lt;/h4&gt;
 &lt;h4&gt;3.轉換動態圖的運算時間有稍微加快&lt;/h4&gt;
 &lt;h3&gt;版本控制區:&lt;/h3&gt;
-&lt;h4&gt;Pyslvs 0.9-beta.2的版本控管獨立為個別的功能區&lt;/h4&gt;</content><category term="brython"></category><category term="w5"></category></entry><entry><title>2017CD第四週</title><link href="./2017springCD-Week4.html" rel="alternate"></link><published>2017-02-25T11:00:00+08:00</published><updated>2017-02-25T11:00:00+08:00</updated><author><name>40423248</name></author><id>tag:None,2017-02-25:./2017springCD-Week4.html</id><summary type="html">&lt;h3&gt;0.9dev版本的問題:&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../data/P404.png" width="1100" /&gt;&lt;/p&gt;
+&lt;h4&gt;Pyslvs 0.9-beta.2的版本控管獨立為個別的功能區,這裡的功能跟一般的存檔一樣,只是這裡會在軟體內多建立一個還原檔&lt;/h4&gt;</content><category term="brython"></category><category term="w5"></category></entry><entry><title>2017CD第四週</title><link href="./2017springCD-Week4.html" rel="alternate"></link><published>2017-02-25T11:00:00+08:00</published><updated>2017-02-25T11:00:00+08:00</updated><author><name>40423248</name></author><id>tag:None,2017-02-25:./2017springCD-Week4.html</id><summary type="html">&lt;h3&gt;0.9dev版本的問題:&lt;/h3&gt;
 &lt;h4&gt;1.動作執行太快時程式會直接跳掉:&lt;/h4&gt;
 &lt;h4&gt;譬如說返回上一個動作的指令(CTRL+Z)按的太快的時候,如下:&lt;/h4&gt;
 &lt;p&gt;&lt;img src="./../data/P301.png" width="1100" /&gt;&lt;/p&gt;
